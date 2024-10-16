@@ -1,0 +1,158 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye padding y bordes en el tamaño total */
+}
+
+/* Generales */
+
+body {
+    line-height: 1.6; /* Mejora la legibilidad */
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 25);
+    font-size: 16px;
+}
+
+h1, h2, h3, p {
+    margin: 1em 0; /* Margen vertical */
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+blockquote {
+    margin-left: 1.5em; /* Sangría a la izquierda */
+}
+
+/* Citas */
+
+blockquote, 
+cite, 
+.q {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Listas anidadas y años en la lista de descripción */
+
+ul li, /* Listas anidadas */
+ol li, /* Lista de descripción */
+ul li time, /* Años dentro de time en listas no ordenadas */
+ol li time { /* Años dentro de time en listas ordenadas */
+    color: rgba(0, 0, 25, 0.5);
+    list-style: none;
+}
+
+/* Enlaces dentro del texto */
+
+a {
+    color: rgb(240, 93, 80);
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estado hover de los enlaces */
+
+a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+/* Cabecera */
+
+.cabecera{
+    text-align: center;
+}
+
+.cabecera--titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(240,93,80);
+}
+.cabecera--titulo:hover {
+    color: rgba(240,93,80,0.5);
+}
+
+.cabecera__lista a {
+    color: rgb(0, 0, 25);
+}
+
+.cabecera__lista a:hover {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+/* Pie de pagina */
+
+.piedepagina {
+    width: 100%;
+    background-color: rgb(0, 0, 25);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+}
+
+.piedepagina a {
+    color: rgb(255, 255, 255);
+}
+
+.piedepagina a:hover {
+    color: rgb(240, 93 ,80);
+}
+
+/* Contenido */
+
+.contenedor{
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+    }
+
+.introduccion {
+    text-align: center;    
+}
+
+.introduccion__parrafo{
+    margin: 0px 120px;
+}
+
+.introduccion__piedepagina--autor{
+    font-size: 28px;
+}
+
+.introduccion__piedepagina--fecha {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.introduccion__foto {
+    margin-top: 40px;
+}
+
+.subtitulofigura {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.cuerpo__enfasis {
+    font-size: 20px;
+    margin-right: 350px;
+   font-weight: bold;
+}
+
+/* 
+.cuerpo_youtube {
+    
+}
+*/ 
+
+.cuerpo__cita{
+    font-size: 20px;
+}
+
+.cita__autor{
+    font-style: italic;
+    font-size: 16px;
+}
