@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bob Dylan, premio Nobel de literatura</title>
-    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
     <header class="cabecera">
-      <h1 class="cabecera--titulo"><a href="index.html">Letras</a></h1>
+      <h1 class="cabecera__titulo"><a href="index.html">Letras</a></h1>
       <nav class="cabecera__menu">
         <ul class="cabecera__lista">
           <li><a href="index.html">Dylan, premio Nobel de literatura</a></li>
@@ -26,11 +26,12 @@
       </nav>
     </header>
     <main class="contenedor">
-      <article class="articulo">
-        <section class="introduccion">
-          <h1 class="introduccion__titulo">
+      
+      <article class="articulo">        
+        <header class="introduccion">
+          <h2 class="introduccion__titulo">
             Bob Dylan, Premio Nobel de Literatura
-          </h1>
+          </h2>
           <p class="introduccion__parrafo">
             La concesión del premio Nobel de literatura de este año a Robert A.
             Zimmerman, Bob Dylan (Duluth, EE. UU., 1941) está generando una
@@ -41,17 +42,17 @@
           <p class="introduccion__piedepagina--autor">Salvador Climent</p>
           <p class="introduccion__piedepagina--fecha">17 octubre, 2016</p>
           <figure class="introduccion__foto">
-            <img class="foto" src="img/Bob-Dylan-and-The-Band-1974.jpg" />
+            <img class="foto" src="img/Bob-Dylan-and-The-Band-1974.jpg" alt="Bob Dylan con The Band en 1974 en Chicago">
             <figcaption class="subtitulofigura">
               Dylan y The Band —de izquierda a derecha, Rick Danko, Robbie
               Robertson y Levon Helm— en Chicago, durante la primera gira del
               músico en ocho años |
-              <a href="https://creativecommons.org/licenses/by-sa/3.0/"
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/" aria-label="Licencia Creative Commons BY-SA 3.0"
                 >CC BY-SA 3.0</a
               >
             </figcaption>
           </figure>
-        </section>
+        </header>    
         <section class="cuerpo">
           <p class="cuerpo__enfasis">
             Desde el punto de vista del rock y la música popular, que es el de
@@ -62,7 +63,7 @@
             escritores profesionales a sueldo de las productoras. Bob Dylan
             cambia las reglas del juego
           </p>
-          <h2 class="cuerpo__titulo">El mito de la canción protesta</h2>
+          <h3 class="cuerpo__titulo">El mito de la canción protesta</h3>
           <p class="cuerpo__parrafo">
             Hay un gran malentendido popular sobre Bob Dylan. Es víctima del
             cliché de la canción protesta, como John Lennon lo es del cliché de
@@ -111,19 +112,18 @@
           </p>
           <figure class="cuerpo_youtube">
             <iframe
-              width="500px"
-              height="315px"
+              width="500"
+              height="315"
               src="https://www.youtube.com/embed/vWwgrjjIMXA"
               title="Blowing In The Wind (Marzo 1963)"
-              frameborder="0"
               allowfullscreen
             >
             </iframe>
-            <figcaption>Blowing In The Wind (Marzo 1963)</figcaption>
+            <figcaption class="subtitulofigura">Blowing In The Wind (Marzo 1963)</figcaption>
           </figure>
         </section>
         <section class="cuerpo">
-          <h2 class="cuerpo__titulo">La revolución de Dylan</h2>
+          <h3 class="cuerpo__titulo">La revolución de Dylan</h3>
           <p class="cuerpo__parrafo">
             La gran innovación del estadounidense es que introduce en las letras
             del rock la expresión de la introspección y la subjetividad, y la
@@ -142,7 +142,7 @@
           </p>
         </section>
         <section class="cuerpo">
-          <h2 class="cuerpo__titulo">El altavoz de la revolución</h2>
+          <h3 class="cuerpo__titulo">El altavoz de la revolución</h3>
           <p class="cuerpo__parrafo">
             El efecto se nota muy claramente en el gran fenómeno global de la
             música popular, los Beatles. Los Beatles cambian el pop y el rock
@@ -187,8 +187,9 @@
           </p>
         </section>
         <section class="cuerpo">
-          <h2 class="cuerpo__titulo">Poesía y/o canción</h2>
-          <blockquote class="cuerpo__cita">
+          <h3 class="cuerpo__titulo">Poesía y/o canción</h3>
+          <figure class="cuerpo__cita">
+          <blockquote lang="en">
             <p>
               […] Our songs are alive in the land of the living. But songs are
               unlike literature. They’re meant to be sung, not read. The words
@@ -199,11 +200,10 @@
               people are listening to songs these days. I return once again to
               Homer, who says, "Sing in me, oh Muse, and through me tell the
               story".
-            </p>
-            <footer class="cita__autor">
-              Bob Dylan. Discurso de aceptación del premio Nobel de literatura
-            </footer>
+            </p>                        
           </blockquote>
+          <figcaption><cite class="cita__autor">Bob Dylan. Discurso de aceptación del premio Nobel de literatura</cite></figcaption>
+        </figure>
           <p class="cuerpo__parrafo">
             Pero volvamos al origen de la polémica. Lo que hace Dylan, ¿es
             literatura? Es decir, ¿es poesía? No lo sé. Tiendo a pensar que
@@ -258,15 +258,15 @@
             popular.
           </p>
         </section>
-        <section class="autor">
+        <div class="autor">
           <p class="autor_parrafo">
             Climent, S. (17-10-2016).
             <a
-              href="https://www.nationalgeographic.com.es/mundo-ng/actualidad/bob-dylan-premio-nobel-literatura- 2016_10781"
+              href="https://www.nationalgeographic.com.es/mundo-ng/actualidad/bob-dylan-premio-nobel-literatura-2016_10781"
               >Bob Dylan, Premio Nobel de Literatura.</a
             >
           </p>
-        </section>
+        </div>
       </article>
     </main>
     <footer class="piedepagina">

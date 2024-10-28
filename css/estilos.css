@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2, h3, p {
-    margin: 1em 0; /* Margen vertical */
+    margin: 0.4em 0; /* Margen vertical */
 }
 
 h1{
@@ -24,11 +24,11 @@ h1{
 }
 
 h2{
-    font-size: 28px;
+    font-size: 50px;
 }
 
-blockquote {
-    margin-left: 1.5em; /* Sangría a la izquierda */
+h3{
+    font-size: 28px;
 }
 
 /* Citas */
@@ -68,11 +68,11 @@ a:hover {
     text-align: center;
 }
 
-.cabecera--titulo {
+.cabecera__titulo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(240,93,80);
 }
-.cabecera--titulo:hover {
+.cabecera__titulo:hover {
     color: rgba(240,93,80,0.5);
 }
 
@@ -92,6 +92,7 @@ a:hover {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px;
+    margin-top: 100px;
 }
 
 .piedepagina a {
@@ -142,17 +143,23 @@ a:hover {
    font-weight: bold;
 }
 
-/* 
 .cuerpo_youtube {
-    
-}
-*/ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 1em 0;
+    border: none; /* frameborder es obsoleto en HTML5 */
+  } 
 
 .cuerpo__cita{
     font-size: 20px;
+    margin-left: 1.5em; /* Sangría a la izquierda */
 }
 
 .cita__autor{
     font-style: italic;
     font-size: 16px;
 }
+
