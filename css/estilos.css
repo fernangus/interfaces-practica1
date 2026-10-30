@@ -186,9 +186,6 @@ a:hover {
 .listapremios__idioma{
     font-size: 25px;
     font-weight: bold;
-}
-
-.listapremios__idioma {
     background-image: url('../img/idioma.png'); /* Ruta de la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     padding-left: 40px; /* Añade espacio para que no se superponga con el texto */
